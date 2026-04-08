@@ -38,7 +38,7 @@ Os dados no Amazon S3 estão organizados de forma lógica em pastas (prefixos) q
 
 Todo o fluxo de dados é orquestrado pelo Apache Airflow. Os pipelines foram divididos por domínios de negócio (`books`, `products`, `sales`, `users`) e segregados entre tarefas de ingestão e tarefas de processamento de dados.
 
-![DAGs rodando no Airflow](Dags.jpg)
+![DAGs rodando no Airflow](Dags.jpeg)
 
 **DAGs Atuais:**
 * `books_process_data_taskflow`
